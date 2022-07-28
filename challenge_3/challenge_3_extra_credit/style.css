@@ -11,4 +11,21 @@ img {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#b {
+	display: flex;
+}
+
+#c {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#d {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
 }
